@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
                 n2=Double.parseDouble(String.valueOf(e2.getText()));
                 sum=n1+n2;
                 Toast.makeText(MainActivity.this, String.valueOf(sum), Toast.LENGTH_SHORT).show();
-
             }
         });
         b3.setOnClickListener(new View.OnClickListener() {
